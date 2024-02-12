@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OverFlowZIndex</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container{
+            border: 2px solid black;
+            width: 50%;
+            height: 500px;
+            position: relative;
+            
+            /* overflow: hidden; */
+         /* overflow: scroll; */
+         /* overflow: auto; */
+        }
+        .box{
+            background-color: yellow;
+            height: 35%;
+            width: 25%;
+            border: 2px solid black;
+            position: absolute;
+
+        }
+             
+       .box:nth-child(1){
+            background-color:yellow;
+            border: 2px solid blue;
+            left: 0px;
+            left: 35%;
+            top: 20%;
+            z-index: 1;
+        
+           
+        }
+       
+       .box:nth-child(2){
+            background-color:blue;
+            right: 0px;
+            right: 22%;
+            top: 20%;
+           
+        }
+        .box:nth-child(3){
+            background-color: rgb(90, 247, 28);
+            bottom: 0px;
+            left: 35%;
+            bottom: 25%;
+            z-index:1;
+        }
+        .box:nth-child(4){
+            background-color: rgb(218, 69, 0);
+            right: 0px;
+            bottom: 0px;
+            right: 20%;
+            bottom: 20%;
+        }
+
+    </style>
+</head>
+<body>
+        <!-- <div class="container"><p>Lorem ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam porro repellat ab quod sit dicta qui obcaecati accusantium debitis adipisci, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minima voluptatibus ipsam esse consequuntur numquam natus, aspernatur temporibus architecto alias commodi deleniti saepe, assumenda quia veritatis corrupti blanditiis quam ducimus? inventore laboriosam laborum explicabo a magnam omnis consectetur illum. Provident? sit amet consectetur adipisicing elit. Qui impedit voluptate quas, et ut fugit minus repudiandae beatae reprehenderit, ab similique minima assumenda unde porro quasi dignissimos vel corporis dolorum?</p></div> -->
+        <div class="container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            
+        </div>
+
+    </body>
+</html>

@@ -12,7 +12,7 @@
             box-sizing: border-box;
         }
         body{
-            background-color: black;
+            background-color: white;
         }
         .container{
           background-color: blue;
@@ -27,23 +27,111 @@
          background-color: white;
          height: 100%;
          width: 50%;
+         /* display: flex;
+         justify-content: center;
+         align-items: center; */
         }
         .div2{
-            background-color: rgb(122, 206, 27);
+            background-color: white;
             height: 100%;
             width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
 
         }
+        img{
+            height: 100%;
+        }
 
+        .box1{
+            height: 60%;
+            border: 2px solid grey;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .box2{
+            height: 15%;
+         border: 2px solid grey;
+        }
+        
+        .box3{
+            height: 20%;
+            border: 2px solid grey;
+        }
+        .header{
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            border: 1px solid black;
+        }
+        .Mid{
+            height: 50%;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        
+        }
+        .sid{
+            height: 30% ;
+            border: 1px solid red;
+        }
+        input{
+            height: 25%;
+            width: 80%;
+        }
+        hr{
+            
+            width: 45%;
+            
+        }
+        
+        .hrtag{
+            display: flex;
+            height: 10%;
+            width: 80%;
+            /* border: 2px solid blue; */
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
     </style>
 </head>
 <body>
      <div class="container">
 <div class="div1">
-    <img src="" alt="">
+    <img src="Screenshot 2024-02-12 161815.png" alt="">
 </div>
-<div class="div2"></div>
 
+<div class="div2">
+<div class="box1">
+   <div class="header">
+    <h1>Instagram</h1>
+   </div>
+     <div class="Mid">
+        <input type="text" placeholder="Phone number, username or email address">
+        <input type="password" placeholder="password">
+        <input type="submit" value="Log in">
+        <div class="hrtag">
+            <hr> OR <hr>
+        </div>
+     </div>
+
+
+
+
+    <div class="sid"></div>
+
+</div>
+
+
+
+<div class="box2"></div>
+<div class="box3"></div>
 
      </div>
 </body>

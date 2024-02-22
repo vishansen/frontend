@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.header{
+    height: 10vh;
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header1{
+    height: 10vh;
+    width: 20%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.header2{
+    height: 10vh;
+    width: 40%;
+    /* border: 1px solid rgb(221, 38, 139); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: space-evenly;
+}
+.header3{
+    height: 10vh;
+    width: 20%;
+    /* border: 1px solid rgb(66, 196, 33); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+button{
+    margin-right: 8px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    /* border: 1px solid black; */
+}
+.box1{
+    height: 90vh;
+    width: 91%;
+    background-color: #F9FAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box2{
+    height: 60%;
+    width: 30%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.box3{
+    height: 80%;
+    width: 55%;
+    /* border: 1px solid rgb(51, 62, 216); */
+}
+.text1{
+    /* border: 1px solid red; */
+}
+.text2{
+/* border: 1px solid black; */
+height: 12vh;
+font-family: sans-serif;
+font-size: 17px;
+line-height: 25px;
+}
+.text3{
+    height: 20%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.but{
+    height: 60%;
+    width: 45%;
+    /* border: 1px solid black; */
+}
+.im{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 90%;
+
+}

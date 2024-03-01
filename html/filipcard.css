@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+}
+.header{
+    width: 100vw;
+    /* border: 1px solid black; */
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 12vw;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.input{
+    width: 35vw;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.list{
+    width: 45vw;
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo-1{
+    /* width: 8vw; */
+    /* border: 1px solid black; */
+    padding: 8px;
+}
+.sell-box{
+    /* border: 1px solid black; */
+    margin-left: 2px;
+}
+#sellbox-class{
+    /* border: 1px solid black; */
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 30vw;
+    height: 5vh;
+    font-size: large;
+    background-color: rgb(241, 241, 241);
+    border: none;
+}
+.input-in{
+    /* border: 1px solid black; */
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+.header-2{
+    width: 100vw;
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+}
+.grocery-box{
+    width: 98vw;
+    /* border: 1px solid black; */
+    /* padding: 5px; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.product-box{
+    width: 9vw;
+    /* border: 1px solid black; */
+    padding: 5px;
+    margin-bottom: 2px;
+}
+.img-box{
+    width: 8vw;
+    padding: 10px;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+}
+.name-box{
+    width: 8vw;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+ #home-box{
+    width: 13vw;
+} 
+#name1-box{
+    width: 12vw;
+    padding: 10px;
+    margin-top: 21px;
+}
+#image1-box{
+    margin-left: 30px;
+    margin-top: 6px;
+}
+#toy-box{
+    width: 15vw;
+}
+#wheeler-box{
+    width: 11vw;
+}
+#toys1-box{
+    width: 14vw;
+    margin-top: 20px;
+}
+.container{
+    width: 98vw;
+
+}
+.animation{
+    padding: 10px;
+}
+.start4img{
+    display: flex;
+    padding: 8px;
+    
+}
+.simg{
+    /* padding: 10px; */
+    width: 25vw;
+    /* border: 1px solid red; */
+    margin: 3px;
+    
+}
+.animation img{
+    width: 100vw;
+}
+.simg img{
+    width: 25vw;
+}
+.top{
+    padding: 10px;
+    /* border: 1px solid black; */
+   
+}
+.topbox{
+    display: flex;
+    justify-content: center;
+   
+}
+.box{
+    /* padding: 10px; */
+    /* width: 35vw; */
+    padding: 5px 20px;
+    border: 1px solid grey;
+    margin: 20px;
+
+}
+
+.image p{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.image h2{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.pic9{
+    /* border: 1px solid red; */
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo img{
+    width: 30vw;
+    margin: 10px;
+}
+.fashain{
+    padding: 10px;
+    border: 1px solid rgb(49, 30, 218);
+}
+.six{
+    padding: 1px solid red;
+    padding: 10px;
+    width: 30vw;
+}
+.ff{
+    display: flex;
+}

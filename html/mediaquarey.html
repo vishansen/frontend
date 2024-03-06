@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.header{
+    border: 1px solid black;
+    padding: 20px;
+    background-color:red ;
+    color: white;
+    font-size: 40px;
+}
+p{
+    display: none;
+}
+@media (max-width:1000px){
+.header{
+    background-color: green;
+    p{
+        display: block;
+    }
+}
+}
+@media (max-width:600px){
+.header{
+    background-color:blue;
+    
+}
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+  <p>Rahul</p>
+    </div>
+</body>
+</html>

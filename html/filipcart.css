@@ -197,6 +197,7 @@ ul{
 }
 #toy-box{
     width: 15vw;
+    /* border: 1px solid black; */
 }
 #wheeler-box{
     width: 11vw;
@@ -252,18 +253,24 @@ ul{
 }
 .top{
     padding: 10px;
-    /* border: 1px solid black; */
+    /* border: 1px solid black */
    
 }
 .topbox{
     display: flex;
     justify-content: center;
+    /* align-items: center; */
+    /* border: 1px solid black; */
    
 }
+.image{
+    /* border: 1px solid rgb(224, 44, 44); */
+}
+
 .image-box{
     height: 35vh;
     width: 100%;
-    border: 2px solid #172337;
+    border: 20px solid #172337;
 }
 .box{
     /* padding: 10px; */
@@ -275,13 +282,16 @@ ul{
 }
 
 .image p{
-    font-size: 15px;
+    font-size: 20px;
     font-family: sans-serif;
     padding: 10px;
+    padding-left: 5px;
+    text-align: center;
 }
 .image h2{
-    font-size: 15px;
+    font-size: 20px;
     font-family: sans-serif;
+    text-align: center;
 }
 .pic9{
     /* border: 1px solid red; */
@@ -295,15 +305,17 @@ ul{
 }
 .fashain{
     padding: 10px;
-    /* border: 1px solid rgb(49, 30, 218); */
+    border: 1px solid rgb(49, 30, 218);
 }
 .six{
-    /* padding: 1px solid red; */
+    border: 1px solid black;
     padding: 10px;
     width: 30vw;
 }
 .ff{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mid-box{

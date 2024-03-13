@@ -263,8 +263,30 @@ ul{
     /* border: 1px solid black; */
    
 }
-.image{
-    /* border: 1px solid rgb(224, 44, 44); */
+.six .image{
+    /* height:100%;
+    width: 100%; */
+        /* border: 1px solid gray; */
+        border-bottom: 1px solid grey;
+    padding:4% 15%;
+    /* height: 90%; */
+    height:75%;
+}
+ .image1{
+    height:25%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    h2{
+        font-size: 25px;
+    }
+}
+.image img{
+    height: 100%;
+    width: 100%;
 }
 
 .image-box{
@@ -275,9 +297,19 @@ ul{
 .box{
     /* padding: 10px; */
     width: 40%;
-    padding: 5px 20px;
+    padding: 5px 0px;
     border: 1px solid grey;
     margin: 20px;
+    .image{
+        border-bottom: 1px solid grey;
+    }
+    .image1{
+        padding: 2% 0%;
+        h2{
+        font-size:23px;
+        }
+    }
+    
 
 }
 
@@ -305,23 +337,25 @@ ul{
 }
 .fashain{
     padding: 10px;
-    border: 1px solid rgb(49, 30, 218);
+    /* border: 1px solid rgb(49, 30, 218); */
 }
 .six{
-    border: 1px solid black;
-    padding: 10px;
+    border: 1px solid grey;
+    /* padding: 10px; */
     width: 30vw;
+    height: 60vh;
 }
 .ff{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 3px solid red; */
 }
 
 .mid-box{
     display: flex;
     align-items: center;
-    /* border: 1px solid red; */
+    /* border: 2px solid red; */
     
 }
 
@@ -398,14 +432,14 @@ ul{
     cursor: pointer;
     background-color: white;
     margin: 8px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 .colourful-box2{
     width: 32vw;
     cursor: pointer;
     background-color: white;
     margin: 8px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 .colourful-box3{
     width: 32vw;
@@ -429,6 +463,7 @@ ul{
     border: 1px solid gray;
     border-radius: 5px;
     margin: 8px;
+    height: 45vh;
 }
 .color-img{
     width: 13vw;
@@ -436,6 +471,14 @@ ul{
     text-align: center;
     font-size: 0.9rem;
     cursor: pointer;
+    height: 70%;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .oo{
+        margin-top: 9%;
+    }
 }
 .cloth-box{
     /* border: 1px solid black; */

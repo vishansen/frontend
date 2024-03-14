@@ -96,19 +96,43 @@
                         //     i++;
                         // }
 // =======================================================
-                            let a=prompt("enter number")
-                            let i=0;
-                            let sum=0;
+                            // let a=prompt("enter number")
+                            // let i=0;
+                            // let sum=0;
 
-                            while(i<=a){
-                                if(i%2!=0){
-                                    console.log(i)
-                                    sum=sum+i
-                                }
-                                i++;
-                            }
-                            console.log(sum)
-          // =====================================================
+                            // while(i<=a){
+                            //     if(i%2!=0){
+                            //         console.log(i)
+                            //         sum=sum+i
+                            //     }
+                            //     i++;
+                            // }
+                            // console.log(sum)
+// ===========================================================
+let num = 145;
+let original num = num;
+let sum=0;
+while(num>0){
+    let i=num%10;
+    let fact=1;
+    for(let j=i ;j>=1 ;j--)
+    {
+        fact = fact*j;
+    }
+    sum=sum+fact;
+    num = parseInt(num/10);
+    }
+    console.log(sum)
+    console.log(num)
+    if(original num==sum)
+    {
+        console.log("strong number")
+    }
+    else {
+        console.log("not strong  number")
+    }
+
+
 
           
 

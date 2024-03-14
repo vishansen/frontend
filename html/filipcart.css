@@ -244,6 +244,11 @@ ul{
     margin: 3px;
     
 }
+.simg:hover{
+    transform: scale(1.1);
+    /* transition:all 2s ease-in-out; */
+    
+}
 
 .animation img{
     width: 100vw;
@@ -273,7 +278,7 @@ ul{
     height:75%;
 }
  .image1{
-    height:25%;
+    height:18.5%;
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
@@ -283,6 +288,9 @@ ul{
     h2{
         font-size: 25px;
     }
+}
+.image:hover{
+    transform: scale(0.9);
 }
 .image img{
     height: 100%;
@@ -309,8 +317,6 @@ ul{
         font-size:23px;
         }
     }
-    
-
 }
 
 .image p{
@@ -334,6 +340,9 @@ ul{
 .photo img{
     width: 30vw;
     margin: 10px;
+}
+.photo:hover {
+    transform: scale(1.1);
 }
 .fashain{
     padding: 10px;
@@ -394,6 +403,9 @@ ul{
     font-size: 0.9rem;
     cursor: pointer;
 }
+.mid-img:hover{
+    transform: scale(1.1);
+}
 .Led-box{
     /* border: 1px solid black; */
     padding: 10px;
@@ -405,6 +417,10 @@ ul{
 .led-box-1 img{
     width: 30vw;
     margin: 6px 6px;
+}
+.led-box-1:hover{
+    transform: scale(1.1);
+    transition:all 2s ease-in-out;
 }
 .debit-box{
     /* border: 1px solid black; */
@@ -451,6 +467,10 @@ ul{
 .colourful-box3 img{
     width: 100%;
 }
+.colourful-box3:hover{
+    transform: scale(1.1);
+    transition:all 2s ease-in-out;
+}
 .color-box{
     display: flex;
     flex-wrap: wrap;
@@ -479,6 +499,10 @@ ul{
     .oo{
         margin-top: 9%;
     }
+}
+.color-img:hover{
+    transform: scale(1.1);
+    /* transition:all 2s ease-in-out; */
 }
 .cloth-box{
     /* border: 1px solid black; */
@@ -515,6 +539,9 @@ ul{
     width: 30vw;
     margin: 6px 6px;
     /* border: 1px solid black; */
+}
+.Access-box:hover{
+    transform: scale(1.1);
 }
 .Access-box img{
     width: 100%;

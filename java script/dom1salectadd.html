@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button,input{
+            height: 9vh;
+            width:30vw;
+            font-size: 20px;
+        }
+        input{
+            background-color: blue;
+            color: rgb(24, 22, 22);
+            font-size: 28px;
+            font-weight: 600;
+        }
+        select{
+            height: 10vh;
+            width: 30%;
+            font-size: 30px;
+            font-weight: 700;
+            background-color: rgb(168, 153, 153);
+            
+        }
+    </style>
+</head>
+<body>
+    
+   
+    <input type="text" placeholder="Enter first number" id="inp1">
+    <input type="text" placeholder="Enter second number" id="inp2">
+    
+
+
+    <select name="onclick" id="btn">
+        <option value="+">Plus</option>
+        <option value="-">Minus</option>
+        <option value="*">Multiply</option>
+        <option value="/">Divide</option>
+    </select>
+    
+    <h1 id="h">bfwgw</h1>
+    <script>
+           document.getElementById("btn").onclick=function()
+           {
+              let a=document.getElementById("btn").value;
+            
+           
+           if(a=='+')
+           {
+            let a=Number(document.getElementById("inp1").value);
+            let b=Number(document.getElementById("inp2").value);
+            document.getElementById("h").innerHTML=`Result=>:${a+b}`;
+            
+           }
+           else  if(a=='-')
+           {
+            let a=Number(document.getElementById("inp1").value);
+            let b=Number(document.getElementById("inp2").value);
+            document.getElementById("h").innerHTML=`Result=:${a-b}`;
+           
+           }
+           else  if(a=='*')
+           {
+            let a=Number(document.getElementById("inp1").value);
+            let b=Number(document.getElementById("inp2").value);
+            document.getElementById("h").innerHTML=`Result=:${a*b}`;
+          
+           }
+           else if(a=='/')
+           {
+            let a=Number(document.getElementById("inp1").value);
+            let b=Number(document.getElementById("inp2").value);
+            document.getElementById("h").innerHTML= `Result= :${a/b}`;
+            // console.log(a/b);
+           }
+        }
+    </script>
+
+</body>
+</html>

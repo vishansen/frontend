@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+        .main-container{
+            padding-top: 10vh;
+            padding-left: 10vh;
+            
+            
+            margin: auto;
+            height: 50vh;
+            width: 70%;
+            border: 2px solid black;
+            background-color:antiquewhite;
+        }
+        .color-cont{
+            margin-top: 3vh;
+            height:30vh;
+            width: 40%;
+            /* border: 2px solid; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between; 
+            flex-wrap: wrap;
+        }
+        .color{
+            padding: 1vh;
+            height: 10vh;
+            width:20%;
+            border:2px solid;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+
+        <input type="text" placeholder="Enter your color name" class="inp" id="inpp">
+        <input type="number"placeholder="select your div" class="inp" id="inpp2">  
+        <button id="but">Submit</button>
+        <div class="color-cont">
+            <div class="color" id="1"></div>
+            <div class="color" id="2"></div>
+            <div class="color" id="3"></div>
+            <div class="color" id="4"></div>
+            <div class="color" id="5"></div>
+            <div class="color" id="6"></div>
+            <div class="color" id="7"></div>
+            <div class="color" id="8"></div>    
+        </div>
+
+    </div>
+    <script>
+
+        document.getElementById("but").onclick=function(){
+           
+            let a =document.getElementById("inpp").value;
+            let b = document.getElementById("inpp2").value;
+
+            let c=document.querySelectorAll(".color");
+            for(let i in c)
+            {
+                c[i].style = `background-color: transparent`;
+            }
+            c[b-1].style =`background-color:${a}`;
+
+            document.getElementById(b).style.backgroundColor = a;
+
+           
+              
+        }
+        
+    </script>
+</body>
+
+</html>

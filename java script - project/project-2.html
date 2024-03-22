@@ -85,12 +85,12 @@
             i.onclick = function () {
                 if (i.innerText == "=") {
                     let a = document.querySelector("input").value;
-                    console.log(eval(a))
+                    // console.log(eval(a))
                     document.querySelector("input").value = eval(a);
                 }
                 else if(i.innerText == "C")
                 {
-                    document.querySelector("input").value ="";
+                    document.querySelector("input").value =" ";
                 }
                 else if (i.innerText =="D") {
                     let a = document.querySelector("input").value;
@@ -102,8 +102,6 @@
                 }
             }
         }
-
-
 
     </script>
 

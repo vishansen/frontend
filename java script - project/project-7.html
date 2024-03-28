@@ -14,14 +14,15 @@
     <script>
         document.getElementById("btn").onclick = function(){
             let a=document.getElementById("inp1").value;
-            let h = document.createElement("h1"); 
+            document.getElementById("inp1").value = "";
+            document.getElementById("inp1").focus();
+            let h = document.createElement("h1");
             h.innerText = a;
             document.body.append(h)
             document.getElementById("h").innerText = a;
-            document.getElementById("inp1").value = "";
-            document.getElementById("inp1").focus();
-     
-
+            
+            
+            let n = document.createElement("")
         }
     </script>
 </body>
